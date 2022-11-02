@@ -19,7 +19,7 @@ def ask_option():
     if (option['main_options']) == "New User":
         add_user()
         ask_option()
-    if (option['main_options']) == " Show Status":
+    if (option['main_options']) == "Show Status":
         show_status()
         ask_option()
 
